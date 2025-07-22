@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header{
+    padding: 35px 20px;
+}
+
+header p:first-of-type{
+     color:  hsl(71, 73%, 54%);
+     font-weight: bold;
+     font-size: 20px;
+     margin-bottom: 25px;
+}
+
+header p:last-of-type{
+    color:  hsl(218, 22%, 67%);
+    font-weight: 600;
+    line-height: 1.8;
+}
+
+h1{
+    color:  #2ab2afff;
+    margin-bottom: 30px;
+    font-size: 27px;
+}
+
+
+
+main{
+    color: white;
+}
+
+.one, .two{
+     padding: 20px;
+    }
+
+.one{
+    background-color:  #2ab2afff;
+}
+
+.one button{
+    color: inherit;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.one h2{
+    margin-bottom: 20px;
+}
+
+.one p:first-of-type{
+    font-size: xxx-large;
+    margin-bottom: 15px;
+}
+
+.one p:last-of-type{
+    margin-bottom: 30px;
+}
+
+.one span{
+    color: hsl(204, 43%, 93%);
+    font-size: initial;
+    position: relative;
+    left: 15px;
+    bottom: 10px;
+}
+
+.two{
+    background-color:  hsl(185, 63%, 61%);
+}
