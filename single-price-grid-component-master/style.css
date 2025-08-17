@@ -34,6 +34,7 @@ header p:last-of-type{
     color:  hsl(218, 22%, 67%);
     font-weight: 600;
     line-height: 1.8;
+    letter-spacing: -0.6px;
 }
 
 h1{
@@ -104,4 +105,52 @@ main{
 
 .two p{
     line-height: 1.5;
+}
+
+@media (min-width:640px){
+
+    header{
+        border-radius: 10px 10px 0 0;
+        -webkit-border-radius: 10px 10px 0 0;
+        -moz-border-radius: 10px 10px 0 0;
+        -ms-border-radius: 10px 10px 0 0;
+        -o-border-radius: 10px 10px 0 0;
+        padding: 35px;
+}
+
+    header p:last-of-type{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    main{
+        display: flex;
+        flex-direction: row;
+    }
+
+    section{
+        width: 50%;
+        /* padding: 35px; */
+    }
+
+    .one, .two{
+        padding: 35px;
+    }
+
+    .one{
+        border-radius: 0 0 0 10px;
+        -webkit-border-radius: 0 0 0 10px;
+        -moz-border-radius: 0 0 0 10px;
+        -ms-border-radius: 0 0 0 10px;
+        -o-border-radius: 0 0 0 10px;
+    }
+
+    .two{
+        border-radius: 0 0 10px 0;
+        -webkit-border-radius: 0 0 10px 0;
+        -moz-border-radius: 0 0 10px 0;
+        -ms-border-radius: 0 0 10px 0;
+        -o-border-radius: 0 0 10px 0;
+}
 }
