@@ -105,9 +105,13 @@ main{
 
 .two p{
     line-height: 1.5;
+    color: hsl(204, 43%, 93%);
 }
 
 @media (min-width:640px){
+    body{
+        font-size: 1.2rem;
+    }
 
     header{
         border-radius: 10px 10px 0 0;
@@ -153,4 +157,16 @@ main{
         -ms-border-radius: 0 0 10px 0;
         -o-border-radius: 0 0 10px 0;
 }
+}
+
+@media (min-width:864px){
+    .one button{
+        margin-top: 30px;
+    }
+}
+
+@media (min-width:1440px){
+    h1{
+        font-size: 4rem;
+    }
 }
