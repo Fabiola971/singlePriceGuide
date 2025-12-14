@@ -11,6 +11,8 @@ body{
     font-style: normal;
     padding: 25px;
     background-color:  hsl(204, 43%, 93%);
+    display: flex;
+    justify-content: center;
 }
 
 header{
@@ -40,12 +42,16 @@ header p:last-of-type{
 h1{
     color:  #2ab2afff;
     margin-bottom: 30px;
-    font-size: 23px;
+    font-size: 1.5rem;
 }
 
 main{
     color: white;
 }
+
+/* .component{
+    width: 60%;
+} */
 
 .one, .two{
      padding: 20px;
@@ -67,6 +73,7 @@ main{
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     box-shadow: 10px 5px 15px   #3e9d9b;
+    font-weight: 800;
 }
 
 .one h2{
@@ -109,8 +116,12 @@ main{
 }
 
 @media (min-width:640px){
-    body{
+    main, p{
         font-size: 1.2rem;
+    }
+
+    h1{
+        font-size: 2em;
     }
 
     header{
@@ -119,14 +130,12 @@ main{
         -moz-border-radius: 10px 10px 0 0;
         -ms-border-radius: 10px 10px 0 0;
         -o-border-radius: 10px 10px 0 0;
-        padding: 35px;
-}
+    }
 
     header p:last-of-type{
         display: flex;
         flex-direction: column;
     }
-
 
     main{
         display: flex;
@@ -136,6 +145,10 @@ main{
     section{
         width: 50%;
         /* padding: 35px; */
+    }
+
+    .component{
+        /* width: 60%; */
     }
 
     .one, .two{
@@ -156,7 +169,7 @@ main{
         -moz-border-radius: 0 0 10px 0;
         -ms-border-radius: 0 0 10px 0;
         -o-border-radius: 0 0 10px 0;
-}
+    }
 }
 
 @media (min-width:864px){
@@ -166,7 +179,23 @@ main{
 }
 
 @media (min-width:1440px){
-    h1{
-        font-size: 4rem;
+    body{
+        /* display: flex;
+        justify-content: center; */
     }
+    
+    
+
+    .component{
+        width: 60%;
+    }
+
+    .two{
+        padding: 35px 0 35px 35px;
+    }
+
+    
+
+
 }
+
