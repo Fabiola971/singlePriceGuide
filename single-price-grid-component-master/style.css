@@ -34,7 +34,6 @@ header p:first-of-type{
 
 header p:last-of-type{
     color:  hsl(218, 22%, 67%);
-    font-weight: 600;
     line-height: 1.8;
     letter-spacing: -0.6px;
 }
@@ -65,28 +64,29 @@ main{
     color: inherit;
     background-color: hsl(71, 73%, 54%);
     border: none;
-    padding: 20px;
+    padding: 15px;
     width: 100%;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
     box-shadow: 10px 5px 15px   #3e9d9b;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 .one h2{
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    font-size: 1.2em;
 }
 
 .one p:first-of-type{
     font-size: xxx-large;
-    margin-bottom: 7px;
+
 }
 
 .one p:last-of-type{
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .one span{
@@ -107,7 +107,7 @@ main{
 }
 
 .two h2{
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .two p{
